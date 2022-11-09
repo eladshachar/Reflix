@@ -1,0 +1,22 @@
+.movie{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 2%;
+}
+
+.rental-status-change {
+    font-size: large;
+    margin: 2px;
+    position: relative;
+    left: 170px;
+}
+
+.info-button {
+    position: relative;
+    top: 170px;
+    left: 130px;
+}

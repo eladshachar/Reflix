@@ -1,0 +1,11 @@
+.user{
+    background-color: #f1c40f;
+    font-size: xx-large; 
+    text-align: center;
+    line-height: 200px;
+    width: 200px;
+    height: 200px;
+    margin: 3%; 
+    display: inline-block;
+    border-radius: 5%;  
+}
