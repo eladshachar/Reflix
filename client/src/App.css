@@ -10,3 +10,13 @@
   left: 0;
   z-index: -1;
 }
+
+.link {
+  font-size: x-large;
+  margin-left: 10px;
+  color: lightskyblue;
+}
+
+body {
+  background-color: black;
+}
