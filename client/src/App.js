@@ -26,7 +26,8 @@ export default class App extends Component {
       ],
       searchedString: "",
       searchedMovies: [],
-      users: ["Adam", "Eve", "Solomon", "David"]
+      users: ["Adam", "Eve", "Solomon", "David"],
+      currentUser: ""
    
     }
   }
@@ -34,7 +35,6 @@ export default class App extends Component {
 
   filterByString = str => {
     let newList = this.state.catalog.filter(m=> m.title.toLowerCase().includes(str.toLowerCase()))
-    console.log(newList)
     this.setState({searchedString: str})
     this.setState({searchedMovies: newList})
   }
